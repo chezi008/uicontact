@@ -14,6 +14,10 @@ public class ContactBean extends IndexBean implements Parcelable {
     private String id;
     private String name;
     private int type;
+    /**
+     * 设置本地图片请设置为
+     *"intres"+R.mipmap.ic_group_avatar
+     */
     private String avatar;
     /**
      * 是否选择，checkbox的状态由该字段控制

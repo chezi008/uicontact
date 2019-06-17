@@ -72,7 +72,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactA
             @Override
             public boolean onLongClick(View v) {
                 if (contactListener != null) {
-                    contactListener.onClick(contactBean);
+                    contactListener.onLongClick(contactBean);
                 }
                 return contactListener != null;
             }

@@ -86,7 +86,12 @@ public interface ContactListener<T> {
 联系人界面未读消息的数量、checkbox的状态都与由ContactBean类中的相应字段进行控制。
 
 ```
-  /**
+ 	/**
+     * 设置本地图片请设置为
+     *"intres"+R.mipmap.ic_group_avatar
+     */
+    private String avatar;
+ 	/**
      * 是否选择，checkbox的状态由该字段控制
      */
     private boolean isChoose;

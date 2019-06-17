@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestBuilder;
@@ -37,12 +38,12 @@ public class ContactActivity extends AppCompatActivity implements ContactListene
 
     @Override
     public void onClick(ContactBean item) {
-
+        Toast.makeText(this, "onclick", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onLongClick(ContactBean item) {
-
+        Toast.makeText(this, "onLongClick", Toast.LENGTH_SHORT).show();
     }
 
     @Override
