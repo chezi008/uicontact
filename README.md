@@ -1,4 +1,23 @@
 # uicontact
+
+[![](https://jitpack.io/v/chezi008/uicontact.svg)](https://jitpack.io/#chezi008/uicontact)
+## 如何依赖
+第一步：
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+第二步：
+```
+dependencies {
+	        implementation 'com.github.chezi008:uicontact:1.x.x'
+	}
+```
+
 ## 功能介绍：
 
 该库主要功能包含：
