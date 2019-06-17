@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LibContacts</string>
+    <array name="contacts">
+        <item>3262626哈哈</item>
+        <item>四川</item>
+        <item>长沙</item>
+        <item>株洲</item>
+        <item>沙特</item>
+        <item>美杜莎</item>
+        <item>几日里亚</item>
+        <item>伊朗</item>
+        <item>伊拉克</item>
+        <item>多多诶度</item>
+        <item>哈诶及</item>
+        <item>你网吧</item>
+    </array>
+</resources>
