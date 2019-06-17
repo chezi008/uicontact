@@ -15,10 +15,17 @@ public class ContactBean extends IndexBean implements Parcelable {
     private String name;
     private int type;
     private String avatar;
-
+    /**
+     * 是否选择，checkbox的状态由该字段控制
+     */
     private boolean isChoose;
+    /**
+     * checkBox的enable状态
+     */
     private boolean checkEnable = true;
-    //未读消息数量
+    /**
+     * 未读消息数量
+     */
     private int num;
 
 
