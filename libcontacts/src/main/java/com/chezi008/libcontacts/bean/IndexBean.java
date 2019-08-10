@@ -11,8 +11,8 @@ public class IndexBean implements ISuspensionInterface {
     /**
      * 英文下标
      */
-    private String letter;
-    private int index = -1;
+    protected String letter;
+    protected int index = -1;
 
     @Override
     public boolean isShowSuspension() {

@@ -1,7 +1,10 @@
 # uicontact
 
+该模块中抽离了联系人模块的功能，包含显示联系人，选择联系人功能。
+
 [![](https://jitpack.io/v/chezi008/uicontact.svg)](https://jitpack.io/#chezi008/uicontact)
-## 如何依赖
+
+#### 如何依赖
 第一步：
 ```
 allprojects {
@@ -18,7 +21,7 @@ dependencies {
 	}
 ```
 
-## 功能介绍：
+#### 功能介绍：
 
 该库主要功能包含：
 
@@ -28,12 +31,12 @@ dependencies {
 
 3、右侧字母条使用的是WaveSideBarView，具体视图查询演示效果。
 
-## 效果演示视频
+#### 效果演示视频
 
 [点击跳转](https://v.youku.com/v_show/id_XNDIzMTUwMjcxNg==.html?spm=a2h3j.8428770.3416059.1)
 
 
-## 如何使用
+#### 如何使用
 
 1、使用前需要导入uicontact库。
 
@@ -81,7 +84,7 @@ public interface ContactListener<T> {
 }
 ```
 
-## 显示控制
+#### 显示控制
 
 联系人界面未读消息的数量、checkbox的状态都与由ContactBean类中的相应字段进行控制。
 

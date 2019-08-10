@@ -46,6 +46,8 @@ public class ContactBean extends IndexBean implements Parcelable {
         isChoose = in.readByte() != 0;
         checkEnable = in.readByte() != 0;
         num = in.readInt();
+        index =  in.readInt();
+        letter= in.readString();
     }
 
     public static final Creator<ContactBean> CREATOR = new Creator<ContactBean>() {
@@ -147,5 +149,7 @@ public class ContactBean extends IndexBean implements Parcelable {
         dest.writeByte((byte) (isChoose ? 1 : 0));
         dest.writeByte((byte) (checkEnable ? 1 : 0));
         dest.writeInt(num);
+        dest.writeInt(index);
+        dest.writeString(letter);
     }
 }
